@@ -9,6 +9,7 @@ import java.util.Random;
 public class Deck {
     private int maxCards;
     private ArrayList<Character> alphabet = new ArrayList<Character>();
+    private ArrayList<Character> alphabetDuplicated = new ArrayList<Character>();//For the tests
     private ArrayList<Character> usedLetters = new ArrayList<Character>();
     private ArrayList<Card> cards = new ArrayList<Card>(maxCards);
 
@@ -32,12 +33,12 @@ public class Deck {
 
     //Takes first a letter from the alphabet
     //Adds the letter to the usedletters array if its the first part of the maxCards
-    private void createCardsPartTwo(ArrayList<Character> list, boolean firstPart) {
+    private void createCardsPartTwo(ArrayList<Character> list, boolean isFirstPart) {
         int id = getRandomIndex(list);
 
         char letter = list.get(id);
         list.remove(id);
-        if(firstPart){
+        if(isFirstPart){
             this.usedLetters.add(letter);
         }
 
@@ -52,8 +53,8 @@ public class Deck {
         return this.maxCards;
     }
 
-    public ArrayList<Character> getAlphabet() {
-        return this.alphabet;
+    public ArrayList<Character> getWholeAlphabet() {
+        return this.alphabetDuplicated;
     }
 
 
@@ -70,8 +71,11 @@ public class Deck {
 
     //Private setters
     private void setAlphabet(){
-        for (char c = 'a'; c <= 'z'; c++)
+        for (char c = 'a'; c <= 'z'; c++){
             this.alphabet.add(c);
+            this.alphabetDuplicated.add(c);
+        }
+
     }
 
     public ArrayList<Card> getDeck() {

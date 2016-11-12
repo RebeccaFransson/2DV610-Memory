@@ -3,20 +3,21 @@ package test;
 import main.Deck;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Created by ymafr on 2016-11-12.
  */
-public class TestDeck {
+public class DeckTest {
+    @Rule
+    public final ExpectedException exception = ExpectedException.none();
 
-    @Before
-    public void beforeTest(){
-        System.out.println("--Testing Deck class--");
-    }
 
     @Test
     public void testMaxCards(){
@@ -28,13 +29,13 @@ public class TestDeck {
     }
 
     @Test
-    public void testSetAlphabet(){
-        System.out.println("testSetAlphabet()");
+    public void testSetWholeAlphabet(){
+        System.out.println("testSetWholeAlphabet()");
         Deck deck = new Deck(10);
 
         ArrayList<Character> expectedAlphabet = createAlphabet();
 
-        Assert.assertEquals(deck.getAlphabet(), expectedAlphabet);
+        Assert.assertEquals(deck.getWholeAlphabet(), expectedAlphabet);
     }
 
     @Test
@@ -45,6 +46,13 @@ public class TestDeck {
 
         Assert.assertEquals(deck.getMaxCards(), expectedMaxCards);
         Assert.assertEquals(deck.getDeck().size(), expectedMaxCards);
+    }
+
+    @Test
+    public void testCreateDeckWithOddMaxCards(){
+        System.out.println("testCreateDeckWithOddMaxCards()");
+        exception.expect(IndexOutOfBoundsException.class);
+        Deck deck = new Deck(9);
     }
 
 
