@@ -7,6 +7,7 @@ public class Deck {
     private int maxCards;
 
     public Deck(int maxCards) {
+        this.maxCards = maxCards;
     }
 
     public int getMaxCards() {
