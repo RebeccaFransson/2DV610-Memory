@@ -51,7 +51,7 @@ public class DeckTest {
     @Test
     public void testCreateDeckWithOddMaxCards(){
         System.out.println("testCreateDeckWithOddMaxCards()");
-        exception.expect(IndexOutOfBoundsException.class);
+        exception.expect(IllegalArgumentException.class);
         Deck deck = new Deck(9);
     }
 

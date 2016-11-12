@@ -16,6 +16,9 @@ public class Deck {
     private Random rand;
 
     public Deck(int maxCards) {
+        if(maxCards%2 != 0){
+            throw new IllegalArgumentException("Needs to be odd max number of cards");
+        }
         this.maxCards = maxCards;
         setAlphabet();
         createCards();
