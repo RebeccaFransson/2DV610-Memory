@@ -8,14 +8,14 @@ public class Card {
     private int shownr;
 
     public Card(char letter, int id) {
-
+        this.letter = letter;
+        this.shownr = id;
     }
 
     public char getLetter(){
-        Character myChar = null;
-        return myChar;
+        return this.letter;
     }
     public int getShowNr(){
-        return -1;
+        return this.shownr;
     }
 }
