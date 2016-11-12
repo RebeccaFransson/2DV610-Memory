@@ -56,13 +56,13 @@
       <file leaf-file-name="TestDeck.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/TestDeck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="322">
+              <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#269#270#0" expanded="true" />
                 <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#1024#1035#0" expanded="true" />
+                <element signature="e#1025#1036#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,14 +71,13 @@
       <file leaf-file-name="Deck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+            <state relative-caret-position="153">
+              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
               <folding>
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,8 +111,8 @@
         <option value="$PROJECT_DIR$/src/main/CardTest.java" />
         <option value="$PROJECT_DIR$/src/main/Card.java" />
         <option value="$PROJECT_DIR$/src/test/CardTest.java" />
-        <option value="$PROJECT_DIR$/src/test/TestDeck.java" />
         <option value="$PROJECT_DIR$/src/main/Deck.java" />
+        <option value="$PROJECT_DIR$/src/test/TestDeck.java" />
       </list>
     </option>
   </component>
@@ -640,18 +639,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CardTest_testNewCard - 2016.11.12 at 12h 51m 31s.xml">
-      <configuration name="CardTest.testNewCard" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CardTest_testNewCard - 2016.11.12 at 12h 51m 41s.xml">
-      <configuration name="CardTest.testNewCard" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CardTest_testNewCard - 2016.11.12 at 12h 55m 01s.xml">
-      <configuration name="CardTest.testNewCard" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CardTest_testNewCard - 2016.11.12 at 12h 55m 25s.xml">
-      <configuration name="CardTest.testNewCard" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestDeck_testMaxCards - 2016.11.12 at 13h 05m 45s.xml">
       <configuration name="TestDeck.testMaxCards" configurationId="JUnit" />
     </history-entry>
@@ -667,8 +654,20 @@
     <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 19m 45s.xml">
       <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_in_2DV610-Memory - 2016.11.12 at 12h 58m 04s.xml">
-      <configuration name="test in 2DV610-Memory" configurationId="JUnit" />
+    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 21m 24s.xml">
+      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 21m 34s.xml">
+      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 22m 02s.xml">
+      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 23m 10s.xml">
+      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 23m 50s.xml">
+      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -692,7 +691,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -713,7 +712,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -782,29 +783,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="153">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
           <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestDeck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        <state relative-caret-position="322">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#269#270#0" expanded="true" />
             <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#1024#1035#0" expanded="true" />
+            <element signature="e#1025#1036#0" expanded="true" />
           </folding>
         </state>
       </provider>

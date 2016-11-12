@@ -34,7 +34,6 @@ public class TestDeck {
 
         ArrayList<Character> expectedAlphabet = createAlphabet();
 
-
         Assert.assertEquals(deck.getAlphabet(), expectedAlphabet);
     }
 
@@ -42,7 +41,7 @@ public class TestDeck {
 
     //Help methods
     private ArrayList<Character> createAlphabet(){
-        String letters = "abcdefghijklmnopqrstvuwz";
+        String letters = "abcdefghijklmnopqrstuvwxyz";
         ArrayList<Character> chars = new ArrayList<Character>();
         for (char c : letters.toCharArray()) {
             chars.add(c);
