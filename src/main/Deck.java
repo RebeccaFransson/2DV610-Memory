@@ -13,7 +13,25 @@ public class Deck {
     public Deck(int maxCards) {
         this.maxCards = maxCards;
         setAlphabet();
+        createCards();
     }
+
+    private void createCards() {
+        for (int i = 0; i < this.maxCards; i++){
+            if(i < maxCards/2){
+                createCardsFirstHalf();
+            }else{
+                createCardsSecondHalf();
+            }
+        }
+    }
+
+    private void createCardsFirstHalf() {
+    }
+    private void createCardsSecondHalf() {
+    }
+
+
 
     //Getters
     public int getMaxCards() {
@@ -32,9 +50,6 @@ public class Deck {
     }
 
     public ArrayList<Card> getDeck() {
-        for(int i = 0; i < maxCards; i++){
-            this.cards.add(new Card('a', i));
-        }
         return this.cards;
     }
 }
