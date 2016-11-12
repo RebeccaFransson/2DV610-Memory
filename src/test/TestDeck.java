@@ -37,6 +37,16 @@ public class TestDeck {
         Assert.assertEquals(deck.getAlphabet(), expectedAlphabet);
     }
 
+    @Test
+    public void testCreateDeckOfCards(){
+        System.out.println("testCreateDeckOfCards()");
+        int expectedMaxCards = 10;
+        Deck deck = new Deck(expectedMaxCards);
+
+        Assert.assertEquals(deck.getMaxCards(), expectedMaxCards);
+        Assert.assertEquals(deck.getDeck().size(), expectedMaxCards);
+    }
+
 
 
     //Help methods

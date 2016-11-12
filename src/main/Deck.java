@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class Deck {
     private int maxCards;
     private ArrayList<Character> alphabet = new ArrayList<Character>();
+    private ArrayList<Card> cards = new ArrayList<Card>(maxCards);
 
     public Deck(int maxCards) {
         this.maxCards = maxCards;
@@ -28,5 +29,9 @@ public class Deck {
     private void setAlphabet(){
         for (char c = 'a'; c <= 'z'; c++)
             this.alphabet.add(c);
+    }
+
+    public ArrayList<Card> getDeck() {
+        return cards;
     }
 }
