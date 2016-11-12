@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f5267c0c-32e3-4042-bb84-1476eb12691e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Deck.java" afterPath="$PROJECT_DIR$/src/main/Deck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/TestDeck.java" afterPath="$PROJECT_DIR$/src/test/TestDeck.java" />
     </list>
     <ignored path="2DV610-Memory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,30 +53,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestDeck.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestDeck.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/TestDeck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="341">
+              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#1024#1035#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Deck.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Deck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
                 <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -232,7 +235,7 @@
       <recent name="main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDeck.testMaxCards">
+  <component name="RunManager" selected="JUnit.TestDeck.testSetAlphabet">
     <configuration default="false" name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -298,6 +301,32 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TestDeck" />
       <option name="METHOD_NAME" value="testMaxCards" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestDeck.testSetAlphabet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="2DV610-Memory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestDeck" />
+      <option name="METHOD_NAME" value="testSetAlphabet" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -581,17 +610,19 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.CardTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.CardTest.testNewCard" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.test in 2DV610-Memory" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.TestDeck.testMaxCards" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestDeck.testSetAlphabet" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestDeck.testMaxCards" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CardTest.testNewCard" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CardTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestDeck.testSetAlphabet" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestDeck.testMaxCards" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CardTest.testNewCard" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -609,15 +640,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CardTest - 2016.11.12 at 12h 44m 19s.xml">
-      <configuration name="CardTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CardTest - 2016.11.12 at 12h 44m 36s.xml">
-      <configuration name="CardTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CardTest_testNewCard - 2016.11.12 at 12h 50m 52s.xml">
-      <configuration name="CardTest.testNewCard" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CardTest_testNewCard - 2016.11.12 at 12h 51m 31s.xml">
       <configuration name="CardTest.testNewCard" configurationId="JUnit" />
     </history-entry>
@@ -636,6 +658,15 @@
     <history-entry file="TestDeck_testMaxCards - 2016.11.12 at 13h 06m 04s.xml">
       <configuration name="TestDeck.testMaxCards" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 12m 53s.xml">
+      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 13m 04s.xml">
+      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 19m 45s.xml">
+      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="test_in_2DV610-Memory - 2016.11.12 at 12h 58m 04s.xml">
       <configuration name="test in 2DV610-Memory" configurationId="JUnit" />
     </history-entry>
@@ -652,7 +683,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -751,27 +782,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestDeck.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="323">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
+    <entry file="file://$PROJECT_DIR$/src/test/TestDeck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="341">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
           <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#1024#1035#0" expanded="true" />
           </folding>
         </state>
       </provider>
