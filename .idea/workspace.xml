@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5267c0c-32e3-4042-bb84-1476eb12691e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Deck.java" afterPath="$PROJECT_DIR$/src/main/Deck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/TestDeck.java" afterPath="$PROJECT_DIR$/src/test/TestDeck.java" />
     </list>
     <ignored path="2DV610-Memory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestDeck.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestDeck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/TestDeck.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="271">
@@ -69,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Deck.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Deck.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
               <folding>
                 <element signature="e#190#201#0" expanded="true" />
                 <element signature="e#254#260#0" expanded="true" />
@@ -81,8 +79,6 @@
                 <element signature="e#448#449#0" expanded="true" />
                 <element signature="e#497#498#0" expanded="true" />
                 <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +112,8 @@
         <option value="$PROJECT_DIR$/src/main/CardTest.java" />
         <option value="$PROJECT_DIR$/src/main/Card.java" />
         <option value="$PROJECT_DIR$/src/test/CardTest.java" />
-        <option value="$PROJECT_DIR$/src/main/Deck.java" />
         <option value="$PROJECT_DIR$/src/test/TestDeck.java" />
+        <option value="$PROJECT_DIR$/src/main/Deck.java" />
       </list>
     </option>
   </component>
@@ -678,11 +674,11 @@
     <history-entry file="TestDeck_testCreateDeckOfCards - 2016.11.12 at 13h 34m 27s.xml">
       <configuration name="TestDeck.testCreateDeckOfCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 12m 53s.xml">
-      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    <history-entry file="TestDeck_testCreateDeckOfCards - 2016.11.12 at 13h 35m 30s.xml">
+      <configuration name="TestDeck.testCreateDeckOfCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 13m 04s.xml">
-      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    <history-entry file="TestDeck_testCreateDeckOfCards - 2016.11.12 at 13h 36m 40s.xml">
+      <configuration name="TestDeck.testCreateDeckOfCards" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 19m 45s.xml">
       <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
@@ -820,6 +816,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestDeck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#1359#1370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/CardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -835,7 +844,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
             <element signature="e#190#201#0" expanded="true" />
             <element signature="e#254#260#0" expanded="true" />
@@ -843,21 +852,6 @@
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#497#498#0" expanded="true" />
             <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestDeck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#1359#1370#0" expanded="true" />
           </folding>
         </state>
       </provider>

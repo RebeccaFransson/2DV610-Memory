@@ -32,6 +32,9 @@ public class Deck {
     }
 
     public ArrayList<Card> getDeck() {
-        return cards;
+        for(int i = 0; i < maxCards; i++){
+            this.cards.add(new Card('a', i));
+        }
+        return this.cards;
     }
 }
