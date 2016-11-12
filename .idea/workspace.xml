@@ -70,17 +70,19 @@
       <file leaf-file-name="Deck.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="356">
+              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
               <folding>
-                <element signature="e#190#201#0" expanded="true" />
-                <element signature="e#254#260#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#215#226#0" expanded="true" />
+                <element signature="e#290#301#0" expanded="true" />
+                <element signature="e#354#360#0" expanded="true" />
+                <element signature="e#1573#1574#0" expanded="true" />
+                <element signature="e#1609#1610#0" expanded="true" />
+                <element signature="e#1658#1659#0" expanded="true" />
+                <element signature="e#1694#1695#0" expanded="true" />
+                <element signature="e#1872#1873#0" expanded="true" />
+                <element signature="e#1905#1906#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -682,11 +684,11 @@
     <history-entry file="TestDeck_testCreateDeckOfCards - 2016.11.12 at 13h 36m 40s.xml">
       <configuration name="TestDeck.testCreateDeckOfCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 19m 45s.xml">
-      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    <history-entry file="TestDeck_testCreateDeckOfCards - 2016.11.12 at 13h 46m 09s.xml">
+      <configuration name="TestDeck.testCreateDeckOfCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 21m 24s.xml">
-      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    <history-entry file="TestDeck_testCreateDeckOfCards - 2016.11.12 at 13h 48m 23s.xml">
+      <configuration name="TestDeck.testCreateDeckOfCards" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 21m 34s.xml">
       <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
@@ -713,7 +715,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -845,17 +847,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="356">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
           <folding>
-            <element signature="e#190#201#0" expanded="true" />
-            <element signature="e#254#260#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#215#226#0" expanded="true" />
+            <element signature="e#290#301#0" expanded="true" />
+            <element signature="e#354#360#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1905#1906#0" expanded="true" />
           </folding>
         </state>
       </provider>
