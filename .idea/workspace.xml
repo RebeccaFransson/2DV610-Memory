@@ -55,7 +55,7 @@
       <file leaf-file-name="TestDeck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/TestDeck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
+            <state relative-caret-position="220">
               <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,19 +70,19 @@
       <file leaf-file-name="Deck.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+            <state relative-caret-position="169">
+              <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#215#226#0" expanded="true" />
                 <element signature="e#290#301#0" expanded="true" />
                 <element signature="e#354#360#0" expanded="true" />
-                <element signature="e#1573#1574#0" expanded="true" />
-                <element signature="e#1609#1610#0" expanded="true" />
-                <element signature="e#1658#1659#0" expanded="true" />
-                <element signature="e#1694#1695#0" expanded="true" />
-                <element signature="e#1872#1873#0" expanded="true" />
-                <element signature="e#1905#1906#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
+                <element signature="e#1352#1353#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+                <element signature="e#1814#1815#0" expanded="true" />
+                <element signature="e#1847#1848#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -690,11 +690,11 @@
     <history-entry file="TestDeck_testCreateDeckOfCards - 2016.11.12 at 13h 48m 23s.xml">
       <configuration name="TestDeck.testCreateDeckOfCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 21m 34s.xml">
-      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    <history-entry file="TestDeck_testCreateDeckOfCards - 2016.11.12 at 13h 50m 06s.xml">
+      <configuration name="TestDeck.testCreateDeckOfCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 22m 02s.xml">
-      <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
+    <history-entry file="TestDeck_testCreateDeckOfCards - 2016.11.12 at 13h 55m 05s.xml">
+      <configuration name="TestDeck.testCreateDeckOfCards" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestDeck_testSetAlphabet - 2016.11.12 at 13h 23m 10s.xml">
       <configuration name="TestDeck.testSetAlphabet" configurationId="JUnit" />
@@ -822,7 +822,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestDeck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
+        <state relative-caret-position="220">
           <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -847,19 +847,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        <state relative-caret-position="169">
+          <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#215#226#0" expanded="true" />
             <element signature="e#290#301#0" expanded="true" />
             <element signature="e#354#360#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
           </folding>
         </state>
       </provider>

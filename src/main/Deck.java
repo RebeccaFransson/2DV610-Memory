@@ -12,6 +12,8 @@ public class Deck {
     private ArrayList<Character> usedLetters = new ArrayList<Character>();
     private ArrayList<Card> cards = new ArrayList<Card>(maxCards);
 
+    private Random rand;
+
     public Deck(int maxCards) {
         this.maxCards = maxCards;
         setAlphabet();
@@ -21,33 +23,23 @@ public class Deck {
     private void createCards() {
         for (int i = 0; i < this.maxCards; i++){
             if(i < maxCards/2){
-                createCardsFirstHalf();
+                createCardsPartTwo(this.alphabet, true);
             }else{
-                createCardsSecondHalf();
+                createCardsPartTwo(this.usedLetters, false);
             }
         }
     }
 
-    //Takes first letter from the alphabet
-    //Adds the letter to the usedletters array
-    private void createCardsFirstHalf() {
-        Random rand = new Random();
-        int id = rand.nextInt(alphabet.size());
+    //Takes first a letter from the alphabet
+    //Adds the letter to the usedletters array if its the first part of the maxCards
+    private void createCardsPartTwo(ArrayList<Character> list, boolean firstPart) {
+        int id = getRandomIndex(list);
 
-        char letter = this.alphabet.get(id);
-        this.usedLetters.add(letter);
-        this.alphabet.remove(id);
-
-        Card newCard = new Card(letter, id);
-        cards.add(newCard);
-    }
-    //When half of the maxCards has gone then take from the used letters insted
-    private void createCardsSecondHalf() {
-        Random rand = new Random();
-        int id = rand.nextInt(usedLetters.size());
-
-        char letter = this.usedLetters.get(id);
-        this.usedLetters.remove(id);
+        char letter = list.get(id);
+        list.remove(id);
+        if(firstPart){
+            this.usedLetters.add(letter);
+        }
 
         Card newCard = new Card(letter, id);
         cards.add(newCard);
@@ -62,6 +54,17 @@ public class Deck {
 
     public ArrayList<Character> getAlphabet() {
         return this.alphabet;
+    }
+
+
+
+
+
+    //Private getters
+    private int getRandomIndex(ArrayList<Character> list) {
+        rand = new Random();
+        int randomNum = rand.nextInt(list.size());
+        return randomNum;
     }
 
 
