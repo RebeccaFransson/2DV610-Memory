@@ -117,7 +117,7 @@ public class DeckTest {
         System.out.println("testGetCardFromShowNr()");
         Deck mockedDeck = mock(Deck.class);
         Card card = new Card('a', 1);
-        
+        when(mockedDeck.getCardFromShowNr(1)).thenReturn(card);
         Assert.assertEquals(card, mockedDeck.getCardFromShowNr(1));
     }
 
