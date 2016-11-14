@@ -6,12 +6,14 @@ package main;
 public class View {
     private StringBuffer stringBuffer;
 
-    public void View(){
+    public View(){
         stringBuffer = new StringBuffer();
     }
     public void start(){
+        stringBuffer.append("Welcome");
+        System.out.println(stringBuffer);
     }
     public String getStringBuffer(){
-        return "Welcome";
+        return this.stringBuffer.toString();
     }
 }
