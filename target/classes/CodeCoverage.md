@@ -3,3 +3,5 @@
 * DeckTest - 100% methods, 72% lines
 * ViewTest - 100% methods, 100% lines
 
+## 14/11 16:22
+* Deck - 100% methods, 76% lines

@@ -95,7 +95,7 @@ public class DeckTest {
     public void testCanGuessWithMock(){
         System.out.println("testCanGuessWithMock()");
         Deck mockedDeck = mock(Deck.class);
-        when(mockedDeck.canGuess()).thenReturn(false);
+        when(mockedDeck.canGuess()).thenReturn(true);
 
         Assert.assertTrue(mockedDeck.canGuess());
     }
