@@ -106,7 +106,7 @@ public class DeckTest {
         Deck deck = new Deck(2);
         //Can guess
         Assert.assertTrue(deck.canGuess());
-        
+
         deck.removeCard(deck.getDeck().get(1));
         deck.removeCard(deck.getDeck().get(0));
         //Cannot guess
