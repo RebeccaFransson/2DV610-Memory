@@ -37,6 +37,7 @@ public class ViewTest {
         Deck mockedDeck = mock(Deck.class);
         view.printDeck(mockedDeck);
         Assert.assertEquals("the whole deck", view.getStringBuffer());
+        System.out.println(view.getStringBuffer());
     }
 
 }

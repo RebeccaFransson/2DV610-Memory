@@ -15,7 +15,7 @@ public class View {
     }
 
     public void printDeck(Deck deck){
-
+        stringBuffer.append("the whole deck");
     }
 
     //getter
