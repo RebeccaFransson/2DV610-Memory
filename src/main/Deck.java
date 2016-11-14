@@ -98,6 +98,6 @@ public class Deck {
 
 
     public boolean canGuess() {
-        return false;
+        return this.cards.size() != 0;
     }
 }

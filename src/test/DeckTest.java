@@ -104,11 +104,13 @@ public class DeckTest {
     public void testCanGuess(){
         System.out.println("testCanGuess()");
         Deck deck = new Deck(2);
-
+        //Can guess
+        Assert.assertTrue(deck.canGuess());
+        
         deck.removeCard(deck.getDeck().get(1));
         deck.removeCard(deck.getDeck().get(0));
-
-        Assert.assertTrue(deck.canGuess());
+        //Cannot guess
+        Assert.assertFalse(deck.canGuess());
     }
 
 
