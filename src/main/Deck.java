@@ -73,7 +73,10 @@ public class Deck {
         return this.cards;
     }
     public Card getCardFromShowNr(int showNr) {
-        return new Card('a', showNr);
+        for (Card c : getDeck()) {
+            if (c.getShowNr() == showNr) return c;
+        }
+        return null;
     }
 
 
