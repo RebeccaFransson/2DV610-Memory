@@ -124,7 +124,7 @@ public class DeckTest {
     @Test
     public void testGetCardFromWrongShowNr(){
         System.out.println("testGetCardFromShowNr()");
-        exception.expect(IllegalArgumentException.class);
+        exception.expect(NullPointerException.class);
         Deck deck = new Deck(2);
 
         deck.getCardFromShowNr(24);//only shownrs as long as the alphabet

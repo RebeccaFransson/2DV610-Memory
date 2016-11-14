@@ -73,10 +73,14 @@ public class Deck {
         return this.cards;
     }
     public Card getCardFromShowNr(int showNr) {
-        for (Card c : getDeck()) {
-            if (c.getShowNr() == showNr) return c;
-        }
-        return null;
+        Card returnCard = null;
+        for (Card c : getDeck())
+            if (c.getShowNr() == showNr) returnCard = c;
+
+        if (returnCard == null)
+            throw new NullPointerException("Sorry, this nr is not in the deck.");
+
+        return returnCard;
     }
 
 
