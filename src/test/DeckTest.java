@@ -80,16 +80,12 @@ public class DeckTest {
     }
 
     @Test
-    public void testRemoveCardsWithMock(){
-        System.out.println("testRemoveCardsWithMock()");
-        Deck mockedDeck = mock(Deck.class);
-        Card card = mockedDeck.addCard(new Card('a', 1));
-        Card card2 = mockedDeck.addCard(new Card('b', 2));
-        Card card3 = mockedDeck.addCard(new Card('c', 3));
-
-        int before = mockedDeck.getDeck().size();
-        mockedDeck.removeCard(card);
-        int after = mockedDeck.getDeck().size();
+    public void testRemoveCards(){
+        System.out.println("testRemoveCards()");
+        Deck deck = new Deck(8);
+        int before = deck.getDeck().size();
+        deck.removeCard(deck.getDeck().get(0));
+        int after = deck.getDeck().size();
 
         Assert.assertNotEquals(before, after);
     }
