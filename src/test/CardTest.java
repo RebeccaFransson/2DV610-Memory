@@ -19,7 +19,7 @@ public class CardTest {
 
     @Before
     public void beforeTest(){
-        System.out.println("--Testing Card class--");
+        System.out.print("-- Card class - ");
     }
 
     @Test

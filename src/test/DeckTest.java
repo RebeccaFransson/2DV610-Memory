@@ -18,6 +18,10 @@ public class DeckTest {
     @Rule
     public final ExpectedException exception = ExpectedException.none();
 
+    @Before
+    public void beforeTest(){
+        System.out.print("-- Deck class - ");
+    }
 
     @Test
     public void testMaxCards(){
