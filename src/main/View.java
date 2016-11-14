@@ -10,7 +10,7 @@ public class View {
         stringBuffer = new StringBuffer();
     }
     public void start(){
-        stringBuffer.append("Welcome");
+        stringBuffer.append("Let's start! \n Pick a even number between 2 and 40:");
         System.out.println(stringBuffer);
     }
     public String getStringBuffer(){

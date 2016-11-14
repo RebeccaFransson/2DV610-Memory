@@ -20,7 +20,7 @@ public class ViewTest {
     @Test
     public void testStartView(){
         View view = new View();
-        String expected = "Welcome";
+        String expected = "Let's start! \n Pick a even number between 2 and 40:";
         view.start();
         String actual = view.getStringBuffer();
         Assert.assertEquals(expected, actual);

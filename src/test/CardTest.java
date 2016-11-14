@@ -49,4 +49,11 @@ public class CardTest {
         Assert.assertEquals(mockedDeck.getCardWithIndex(2), card3);
     }
 
+    @Test
+    public void testEqualLetters(){
+        Card card = new Card('a', 1);
+        Boolean actual = card.equals(new Card('a', 5));
+        Assert.assertTrue(actual);
+    }
+
 }

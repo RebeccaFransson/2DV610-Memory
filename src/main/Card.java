@@ -18,4 +18,8 @@ public class Card {
     public int getShowNr(){
         return this.shownr;
     }
+
+    public boolean equalLetters(Card card){
+        return false;
+    }
 }

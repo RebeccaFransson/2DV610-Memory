@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5267c0c-32e3-4042-bb84-1476eb12691e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Run.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Card.java" afterPath="$PROJECT_DIR$/src/main/Card.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/View.java" afterPath="$PROJECT_DIR$/src/main/View.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/CardTest.java" afterPath="$PROJECT_DIR$/src/test/CardTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ViewTest.java" afterPath="$PROJECT_DIR$/src/test/ViewTest.java" />
     </list>
     <ignored path="2DV610-Memory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,12 +29,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+              <folding>
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,8 +45,8 @@
       <file leaf-file-name="CardTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/CardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="352">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,26 +57,36 @@
       <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="204">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="81" />
               <folding>
                 <element signature="e#135#136#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ViewTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ViewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Run.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,8 +122,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -124,14 +142,15 @@
         <option value="$PROJECT_DIR$/src/test/java/CardTestTest.java" />
         <option value="$PROJECT_DIR$/src/test/CardTestTest.java" />
         <option value="$PROJECT_DIR$/src/main/CardTest.java" />
-        <option value="$PROJECT_DIR$/src/main/Card.java" />
         <option value="$PROJECT_DIR$/src/test/TestDeck.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/Deck.java" />
-        <option value="$PROJECT_DIR$/src/test/CardTest.java" />
         <option value="$PROJECT_DIR$/src/test/DeckTest.java" />
-        <option value="$PROJECT_DIR$/src/test/ViewTest.java" />
         <option value="$PROJECT_DIR$/src/main/View.java" />
+        <option value="$PROJECT_DIR$/src/test/ViewTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Run.java" />
+        <option value="$PROJECT_DIR$/src/main/Card.java" />
+        <option value="$PROJECT_DIR$/src/test/CardTest.java" />
       </list>
     </option>
   </component>
@@ -255,33 +274,7 @@
       <recent name="main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ViewTest.testStartView">
-    <configuration default="false" name="DeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="2DV610-Memory" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.DeckTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CardTest.testEqualLetters">
     <configuration default="false" name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -373,6 +366,32 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.ViewTest" />
       <option name="METHOD_NAME" value="testStartView" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CardTest.testEqualLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="2DV610-Memory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CardTest" />
+      <option name="METHOD_NAME" value="testEqualLetters" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -658,19 +677,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.test in 2DV610-Memory" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CardTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CardTest.testRightCardsWithMock" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DeckTest.testCreateDeckWithOddMaxCards" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ViewTest.testStartView" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CardTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CardTest.testRightCardsWithMock" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DeckTest.testCreateDeckWithOddMaxCards" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ViewTest.testStartView" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CardTest.testEqualLetters" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ViewTest.testStartView" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CardTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CardTest.testRightCardsWithMock" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DeckTest.testCreateDeckWithOddMaxCards" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CardTest.testEqualLetters" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ViewTest.testStartView" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CardTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CardTest.testRightCardsWithMock" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DeckTest.testCreateDeckWithOddMaxCards" />
       </list>
     </recent_temporary>
   </component>
@@ -691,11 +710,11 @@
     <history-entry file="CardTest - 2016.11.14 at 12h 41m 45s.xml">
       <configuration name="CardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CardTest_testRightCardsWithMock - 2016.11.14 at 12h 23m 05s.xml">
-      <configuration name="CardTest.testRightCardsWithMock" configurationId="JUnit" />
+    <history-entry file="CardTest_testEqualLetters - 2016.11.14 at 13h 30m 04s.xml">
+      <configuration name="CardTest.testEqualLetters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CardTest_testRightCardsWithMock - 2016.11.14 at 12h 28m 45s.xml">
-      <configuration name="CardTest.testRightCardsWithMock" configurationId="JUnit" />
+    <history-entry file="CardTest_testEqualLetters - 2016.11.14 at 13h 30m 27s.xml">
+      <configuration name="CardTest.testEqualLetters" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CardTest_testRightCardsWithMock - 2016.11.14 at 12h 29m 19s.xml">
       <configuration name="CardTest.testRightCardsWithMock" configurationId="JUnit" />
@@ -1067,24 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/CardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -1103,23 +1104,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="81" />
           <folding>
             <element signature="e#135#136#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/CardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
           </folding>
         </state>
       </provider>
