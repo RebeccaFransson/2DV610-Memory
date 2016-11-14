@@ -10,7 +10,7 @@ import org.junit.rules.ExpectedException;
 
 import java.util.ArrayList;
 
-import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.*;
 
 /**
  * Created by ymafr on 2016-11-12.
@@ -61,28 +61,33 @@ public class DeckTest {
     }
 
     @Test
-    public void testRightCardsWithMock(){
-        System.out.println("testRightCardsWithMock()");
+    public void testAddCardsWithMock(){
+        System.out.println("testAddCardsWithMock()");
         //Create mock of deck
         //Create cards
         //See if it is the same cards
         Deck mockedDeck = mock(Deck.class);
-        Card card = mockedDeck.addCard('a', 1);
-        Card card2 = mockedDeck.addCard('b', 2);
-        Card card3 = mockedDeck.addCard('c', 3);
 
-        Assert.assertEquals(mockedDeck.getCardWithIndex(0), card);
-        Assert.assertEquals(mockedDeck.getCardWithIndex(1), card2);
-        Assert.assertEquals(mockedDeck.getCardWithIndex(2), card3);
+        //Card card2 = mockedDeck.addCard('b', 2);
+        //Card card3 = mockedDeck.addCard('c', 3);
+        Card card = new Card('a', 1);
+        when(mockedDeck.addCard(card)).thenReturn(card);
+        when(mockedDeck.getCardWithIndex(0)).thenReturn(card);
+        Card cardExpected = mockedDeck.addCard(card);
+        Card cardActual = mockedDeck.getCardWithIndex(0);
+
+        Assert.assertEquals(cardActual, cardExpected);
+        //Assert.assertEquals(mockedDeck.getCardWithIndex(1), card2);
+        //Assert.assertEquals(mockedDeck.getCardWithIndex(2), card3);
     }
 
     @Test
-    public void testRemoveCards(){
-        System.out.println("testRemoveCards()");
+    public void testRemoveCardsWithMock(){
+        System.out.println("testRemoveCardsWithMock()");
         Deck mockedDeck = mock(Deck.class);
-        Card card = mockedDeck.addCard('a', 1);
-        Card card2 = mockedDeck.addCard('b', 2);
-        Card card3 = mockedDeck.addCard('c', 3);
+        Card card = mockedDeck.addCard(new Card('a', 1));
+        Card card2 = mockedDeck.addCard(new Card('b', 2));
+        Card card3 = mockedDeck.addCard(new Card('c', 3));
 
         int before = mockedDeck.getDeck().size();
         mockedDeck.removeCard(card);

@@ -45,7 +45,7 @@ public class Deck {
             this.usedLetters.add(letter);
         }
 
-        addCard(letter, id);
+        addCard(new Card(letter, id));
     }
 
 
@@ -68,12 +68,12 @@ public class Deck {
 
 
     //Public setters
-    public Card addCard(char letter, int id){
-        Card newCard = new Card(letter, id);
-        cards.add(newCard);
+    public Card addCard(Card newCard){
+        this.cards.add(newCard);
         return newCard;
     }
     public Card removeCard(Card card){
+        this.cards.remove(card);
         return card;
     }
 
