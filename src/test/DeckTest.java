@@ -112,6 +112,15 @@ public class DeckTest {
         Assert.assertFalse(deck.canGuess());
     }
 
+    @Test
+    public void testGetCardFromShowNr(){
+        System.out.println("testGetCardFromShowNr()");
+        Deck mockedDeck = mock(Deck.class);
+        Card card = new Card('a', 1);
+        
+        Assert.assertEquals(card, mockedDeck.getCardFromShowNr(1));
+    }
+
 
 
     //Help methods

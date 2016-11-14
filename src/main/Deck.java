@@ -18,6 +18,8 @@ public class Deck {
     public Deck(int maxCards) {
         if(maxCards%2 != 0){
             throw new IllegalArgumentException("Needs to be odd max number of cards");
+        }else if(maxCards < 0 || maxCards > 40){
+            throw new IllegalArgumentException("Needs to be between 2 and 40");
         }
         this.maxCards = maxCards;
         setAlphabet();
@@ -48,6 +50,10 @@ public class Deck {
         addCard(new Card(letter, id));
     }
 
+    public boolean canGuess() {
+        return this.cards.size() != 0;
+    }
+
 
 
     //Public getters
@@ -62,8 +68,12 @@ public class Deck {
     public Card getCardWithIndex(int index){
         return this.cards.get(index);
     }
+
     public ArrayList<Card> getDeck() {
         return this.cards;
+    }
+    public Card getCardFromShowNr(int showNr) {
+        return new Card('a', showNr);
     }
 
 
@@ -97,7 +107,7 @@ public class Deck {
     }
 
 
-    public boolean canGuess() {
-        return this.cards.size() != 0;
-    }
+
+
+
 }

@@ -15,7 +15,7 @@ public class View {
     }
 
     public String printDeck(Deck deck){
-        this.stringBuffer.delete(0, this.stringBuffer.length());//Clearing the buffer
+        this.stringBuffer.setLength(0);//Clearing the buffer
         int length = 0;
         for (Card c: deck.getDeck()) {
             if(length < deck.getMaxCards()*0.2){
