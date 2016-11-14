@@ -8,7 +8,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import java.util.ArrayList;
 
 import static org.mockito.Mockito.*;
 
@@ -37,17 +36,17 @@ public class CardTest {
     @Test
     public void testRightCardsWithMock(){
         System.out.println("testRightCardsWithMock()");
-        Deck mockedDeck = mock(Deck.class);
-        Card card = mockedDeck.addCard('a', 1);
-        Card card2 = new Card('b', 2);
-        Card card3 = new Card('c', 3);
-
-        Assert.assertEquals(mockedDeck.getCard(), card);
-        //Assert.assertEquals(mockedDeck.cards.get(1), card2);
-        //Assert.assertEquals(mockedDeck.cards.get(2), card3);
         //Create mock of deck
         //Create cards
         //See if it is the same cards
+        Deck mockedDeck = mock(Deck.class);
+        Card card = mockedDeck.addCard('a', 1);
+        Card card2 = mockedDeck.addCard('b', 2);
+        Card card3 = mockedDeck.addCard('c', 3);
+
+        Assert.assertEquals(mockedDeck.getCardWithIndex(0), card);
+        Assert.assertEquals(mockedDeck.getCardWithIndex(1), card2);
+        Assert.assertEquals(mockedDeck.getCardWithIndex(2), card3);
     }
 
 }

@@ -45,9 +45,7 @@ public class Deck {
             this.usedLetters.add(letter);
         }
 
-        Card newCard = new Card(letter, id);
-        cards.add(newCard);
-
+        addCard(letter, id);
     }
 
 
@@ -61,8 +59,8 @@ public class Deck {
         return this.alphabetDuplicated;
     }
 
-    public Card getCard(){
-        return this.cards.get(0);
+    public Card getCardWithIndex(int index){
+        return this.cards.get(index);
     }
 
     //Public setters

@@ -28,8 +28,8 @@
       <file leaf-file-name="CardTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/CardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+            <state relative-caret-position="339">
+              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,12 +67,12 @@
       <file leaf-file-name="Deck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="63" column="23" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="23" />
+            <state relative-caret-position="187">
+              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1714#1715#0" expanded="true" />
-                <element signature="e#1754#1755#0" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1731#1732#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -675,8 +675,8 @@
     <history-entry file="CardTest_testRightCardsWithMock - 2016.11.14 at 12h 29m 19s.xml">
       <configuration name="CardTest.testRightCardsWithMock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeckTest_testCreateDeckWithOddMaxCards - 2016.11.12 at 17h 13m 14s.xml">
-      <configuration name="DeckTest.testCreateDeckWithOddMaxCards" configurationId="JUnit" />
+    <history-entry file="CardTest_testRightCardsWithMock - 2016.11.14 at 12h 31m 41s.xml">
+      <configuration name="CardTest.testRightCardsWithMock" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DeckTest_testCreateDeckWithOddMaxCards - 2016.11.12 at 17h 14m 40s.xml">
       <configuration name="DeckTest.testCreateDeckWithOddMaxCards" configurationId="JUnit" />
@@ -734,7 +734,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -777,8 +777,8 @@
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1714#1715#0" expanded="true" />
-            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -825,8 +825,8 @@
           <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1714#1715#0" expanded="true" />
-            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -865,8 +865,8 @@
           <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1714#1715#0" expanded="true" />
-            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1052,20 +1052,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="63" column="23" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="23" />
+        <state relative-caret-position="187">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1714#1715#0" expanded="true" />
-            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/CardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        <state relative-caret-position="339">
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
