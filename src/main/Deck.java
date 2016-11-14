@@ -61,7 +61,16 @@ public class Deck {
         return this.alphabetDuplicated;
     }
 
+    public Card getCard(){
+        return this.cards.get(0);
+    }
 
+    //Public setters
+    public Card addCard(char letter, int id){
+        Card newCard = new Card(letter, id);
+        cards.add(newCard);
+        return newCard;
+    }
 
 
 

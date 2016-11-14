@@ -38,16 +38,13 @@ public class CardTest {
     public void testRightCardsWithMock(){
         System.out.println("testRightCardsWithMock()");
         Deck mockedDeck = mock(Deck.class);
-        Card card = new Card('a', 1);
+        Card card = mockedDeck.addCard('a', 1);
         Card card2 = new Card('b', 2);
         Card card3 = new Card('c', 3);
-        mockedDeck.cards.add(card);
-        mockedDeck.cards.add(card2);
-        mockedDeck.cards.add(card3);
 
-        Assert.assertEquals(mockedDeck.cards.get(0), card);
-        Assert.assertEquals(mockedDeck.cards.get(1), card2);
-        Assert.assertEquals(mockedDeck.cards.get(2), card3);
+        Assert.assertEquals(mockedDeck.getCard(), card);
+        //Assert.assertEquals(mockedDeck.cards.get(1), card2);
+        //Assert.assertEquals(mockedDeck.cards.get(2), card3);
         //Create mock of deck
         //Create cards
         //See if it is the same cards
