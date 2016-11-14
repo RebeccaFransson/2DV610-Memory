@@ -62,12 +62,19 @@ public class Deck {
     public Card getCardWithIndex(int index){
         return this.cards.get(index);
     }
+    public ArrayList<Card> getDeck() {
+        return this.cards;
+    }
+
 
     //Public setters
     public Card addCard(char letter, int id){
         Card newCard = new Card(letter, id);
         cards.add(newCard);
         return newCard;
+    }
+    public Card removeCard(Card card){
+        return card;
     }
 
 
@@ -89,7 +96,5 @@ public class Deck {
 
     }
 
-    public ArrayList<Card> getDeck() {
-        return this.cards;
-    }
+
 }
