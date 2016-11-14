@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5267c0c-32e3-4042-bb84-1476eb12691e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/View.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/ViewTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/CardTest.class" afterPath="$PROJECT_DIR$/target/classes/test/CardTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/CardTest.java" afterPath="$PROJECT_DIR$/src/test/CardTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/DeckTest.java" afterPath="$PROJECT_DIR$/src/test/DeckTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/View.java" afterPath="$PROJECT_DIR$/src/main/View.java" />
     </list>
     <ignored path="2DV610-Memory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,13 +49,13 @@
       <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="238">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="e#140#141#0" expanded="true" />
                 <element signature="e#189#190#0" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -714,13 +709,13 @@
     <history-entry file="CardTest_testRightCardsWithMock - 2016.11.14 at 12h 31m 41s.xml">
       <configuration name="CardTest.testRightCardsWithMock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeckTest_testCreateDeckWithOddMaxCards - 2016.11.12 at 17h 19m 14s.xml">
-      <configuration name="DeckTest.testCreateDeckWithOddMaxCards" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DeckTest_testCreateDeckWithOddMaxCards - 2016.11.12 at 17h 20m 35s.xml">
       <configuration name="DeckTest.testCreateDeckWithOddMaxCards" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ViewTest_testStartView - 2016.11.14 at 13h 02m 46s.xml">
+      <configuration name="ViewTest.testStartView" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ViewTest_testStartView - 2016.11.14 at 13h 03m 46s.xml">
       <configuration name="ViewTest.testStartView" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -767,7 +762,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1107,13 +1102,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="e#140#141#0" expanded="true" />
             <element signature="e#189#190#0" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -12,6 +12,6 @@ public class View {
     public void start(){
     }
     public String getStringBuffer(){
-        return "";
+        return "Welcome";
     }
 }
