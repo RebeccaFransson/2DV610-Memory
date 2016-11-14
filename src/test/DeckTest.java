@@ -8,7 +8,6 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 import static org.mockito.Mockito.*;

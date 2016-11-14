@@ -13,6 +13,12 @@ public class View {
         stringBuffer.append("Let's start! \nPick a even number between 2 and 40:");
         System.out.println(stringBuffer);
     }
+
+    public void printDeck(Deck deck){
+
+    }
+
+    //getter
     public String getStringBuffer(){
         return this.stringBuffer.toString();
     }

@@ -18,9 +18,12 @@ public class Run {
         //Så länge det finns cards kvar så får användaren gissa
         try{
             Deck deck = new Deck(maxNumber);
-            //Print the deck
-            int number = scan.nextInt();
-            int number2 = scan.nextInt();
+            while (deck.canGuess()){
+                //Print the deck
+                int number = scan.nextInt();
+                int number2 = scan.nextInt();
+            }
+
         }catch(IllegalArgumentException e){
             System.err.println(e.getMessage());
         }

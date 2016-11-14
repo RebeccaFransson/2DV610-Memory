@@ -4,13 +4,10 @@ import main.Card;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.runners.MockitoJUnitRunner;
 
 /**
  * Created by ymafr on 2016-11-12.
  */
-@RunWith(MockitoJUnitRunner.class)
 public class CardTest {
 
     @Before
