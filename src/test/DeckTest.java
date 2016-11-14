@@ -8,6 +8,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 import static org.mockito.Mockito.*;
@@ -88,6 +89,15 @@ public class DeckTest {
         int after = deck.getDeck().size();
 
         Assert.assertNotEquals(before, after);
+    }
+
+    @Test
+    public void testCanGuessWithMock(){
+        System.out.println("testCanGuessWithMock()");
+        Deck mockedDeck = mock(Deck.class);
+        when(mockedDeck.canGuess()).thenReturn(false);
+
+        Assert.assertTrue(mockedDeck.canGuess());
     }
 
 

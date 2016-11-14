@@ -97,4 +97,7 @@ public class Deck {
     }
 
 
+    public boolean canGuess() {
+        return false;
+    }
 }
