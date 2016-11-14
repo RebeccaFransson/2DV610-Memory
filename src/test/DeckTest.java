@@ -100,6 +100,17 @@ public class DeckTest {
         Assert.assertTrue(mockedDeck.canGuess());
     }
 
+    @Test
+    public void testCanGuess(){
+        System.out.println("testCanGuess()");
+        Deck deck = new Deck(2);
+
+        deck.removeCard(deck.getDeck().get(1));
+        deck.removeCard(deck.getDeck().get(0));
+
+        Assert.assertTrue(deck.canGuess());
+    }
+
 
 
     //Help methods
