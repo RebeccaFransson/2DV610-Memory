@@ -67,18 +67,16 @@ public class DeckTest {
         //Create cards
         //See if it is the same cards
         Deck mockedDeck = mock(Deck.class);
-
-        //Card card2 = mockedDeck.addCard('b', 2);
-        //Card card3 = mockedDeck.addCard('c', 3);
         Card card = new Card('a', 1);
+        Card card2 = new Card('a', 1);
         when(mockedDeck.addCard(card)).thenReturn(card);
         when(mockedDeck.getCardWithIndex(0)).thenReturn(card);
-        Card cardExpected = mockedDeck.addCard(card);
-        Card cardActual = mockedDeck.getCardWithIndex(0);
 
-        Assert.assertEquals(cardActual, cardExpected);
-        //Assert.assertEquals(mockedDeck.getCardWithIndex(1), card2);
-        //Assert.assertEquals(mockedDeck.getCardWithIndex(2), card3);
+        when(mockedDeck.addCard(card2)).thenReturn(card2);
+        when(mockedDeck.getCardWithIndex(1)).thenReturn(card2);
+
+        Assert.assertEquals(mockedDeck.getCardWithIndex(0), card);
+        Assert.assertEquals(mockedDeck.getCardWithIndex(1), card2);
     }
 
     @Test

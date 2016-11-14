@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5267c0c-32e3-4042-bb84-1476eb12691e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Deck.java" afterPath="$PROJECT_DIR$/src/main/Deck.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/DeckTest.java" afterPath="$PROJECT_DIR$/src/test/DeckTest.java" />
     </list>
     <ignored path="2DV610-Memory.iws" />
@@ -53,8 +52,8 @@
       <file leaf-file-name="DeckTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/DeckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+            <state relative-caret-position="271">
+              <caret line="75" column="56" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -235,33 +234,7 @@
       <recent name="main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeckTest.testRightCardsWithMock">
-    <configuration default="false" name="ViewTest.testStartView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="2DV610-Memory" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ViewTest" />
-      <option name="METHOD_NAME" value="testStartView" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.DeckTest.testAddCardsWithMock">
     <configuration default="false" name="CardTest.testEqualLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -347,6 +320,32 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.DeckTest" />
       <option name="METHOD_NAME" value="testRightCardsWithMock" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DeckTest.testAddCardsWithMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="2DV610-Memory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DeckTest" />
+      <option name="METHOD_NAME" value="testAddCardsWithMock" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -632,19 +631,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.test in 2DV610-Memory" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ViewTest.testStartView" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CardTest.testEqualLetters" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Run" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DeckTest.testRemoveCards" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.DeckTest.testRightCardsWithMock" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CardTest.testEqualLetters" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Run" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DeckTest.testRemoveCards" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DeckTest.testRightCardsWithMock" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.DeckTest.testAddCardsWithMock" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DeckTest.testRightCardsWithMock" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest.testRemoveCards" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Run" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CardTest.testEqualLetters" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ViewTest.testStartView" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DeckTest.testAddCardsWithMock" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest.testRightCardsWithMock" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest.testRemoveCards" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Run" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CardTest.testEqualLetters" />
       </list>
     </recent_temporary>
   </component>
@@ -662,11 +661,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeckTest_testRemoveCards - 2016.11.14 at 13h 51m 23s.xml">
-      <configuration name="DeckTest.testRemoveCards" configurationId="JUnit" />
+    <history-entry file="DeckTest_testAddCardsWithMock - 2016.11.14 at 14h 57m 15s.xml">
+      <configuration name="DeckTest.testAddCardsWithMock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeckTest_testRemoveCards - 2016.11.14 at 13h 52m 42s.xml">
-      <configuration name="DeckTest.testRemoveCards" configurationId="JUnit" />
+    <history-entry file="DeckTest_testAddCardsWithMock - 2016.11.14 at 14h 58m 03s.xml">
+      <configuration name="DeckTest.testAddCardsWithMock" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DeckTest_testRemoveCards - 2016.11.14 at 13h 53m 13s.xml">
       <configuration name="DeckTest.testRemoveCards" configurationId="JUnit" />
@@ -751,13 +750,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/DeckTest.java</url>
-          <line>91</line>
+          <line>89</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/DeckTest.java</url>
-          <line>78</line>
+          <line>77</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
@@ -1196,8 +1195,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/DeckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+        <state relative-caret-position="271">
+          <caret line="75" column="56" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
