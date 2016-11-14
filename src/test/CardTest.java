@@ -51,8 +51,9 @@ public class CardTest {
 
     @Test
     public void testEqualLetters(){
+        System.out.println("testEqualLetters()");
         Card card = new Card('a', 1);
-        Boolean actual = card.equals(new Card('a', 5));
+        Boolean actual = card.equalLetters(new Card('a', 5));
         Assert.assertTrue(actual);
     }
 

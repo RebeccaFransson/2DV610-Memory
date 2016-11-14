@@ -20,6 +20,6 @@ public class Card {
     }
 
     public boolean equalLetters(Card card){
-        return false;
+        return this.letter == card.getLetter();
     }
 }

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5267c0c-32e3-4042-bb84-1476eb12691e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Run.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Card.java" afterPath="$PROJECT_DIR$/src/main/Card.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/View.java" afterPath="$PROJECT_DIR$/src/main/View.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/CardTest.java" afterPath="$PROJECT_DIR$/src/test/CardTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ViewTest.java" afterPath="$PROJECT_DIR$/src/test/ViewTest.java" />
     </list>
     <ignored path="2DV610-Memory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,24 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Card.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Card.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CardTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/CardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="471">
+              <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -716,11 +712,11 @@
     <history-entry file="CardTest_testEqualLetters - 2016.11.14 at 13h 30m 27s.xml">
       <configuration name="CardTest.testEqualLetters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CardTest_testRightCardsWithMock - 2016.11.14 at 12h 29m 19s.xml">
-      <configuration name="CardTest.testRightCardsWithMock" configurationId="JUnit" />
+    <history-entry file="CardTest_testEqualLetters - 2016.11.14 at 13h 31m 21s.xml">
+      <configuration name="CardTest.testEqualLetters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CardTest_testRightCardsWithMock - 2016.11.14 at 12h 31m 41s.xml">
-      <configuration name="CardTest.testRightCardsWithMock" configurationId="JUnit" />
+    <history-entry file="CardTest_testEqualLetters - 2016.11.14 at 13h 32m 17s.xml">
+      <configuration name="CardTest.testEqualLetters" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ViewTest_testStartView - 2016.11.14 at 13h 02m 46s.xml">
       <configuration name="ViewTest.testStartView" configurationId="JUnit" />
@@ -781,7 +777,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1133,23 +1129,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/CardTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Card.java">
+    <entry file="file://$PROJECT_DIR$/src/test/CardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="471">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
           <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
