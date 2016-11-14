@@ -34,7 +34,7 @@ public class CardTest {
         Assert.assertEquals(newCard.getShowNr(), showNr);
     }
 
-    /*@Test
+    @Test
     public void testRightCardsWithMock(){
         System.out.println("testRightCardsWithMock()");
         Deck mockedDeck = mock(Deck.class);
@@ -51,6 +51,6 @@ public class CardTest {
         //Create mock of deck
         //Create cards
         //See if it is the same cards
-    }*/
+    }
 
 }

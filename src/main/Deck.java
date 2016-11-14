@@ -11,7 +11,7 @@ public class Deck {
     private ArrayList<Character> alphabet = new ArrayList<Character>();
     private ArrayList<Character> alphabetDuplicated = new ArrayList<Character>();//For the tests
     private ArrayList<Character> usedLetters = new ArrayList<Character>();
-    private ArrayList<Card> cards = new ArrayList<Card>(maxCards);
+    public ArrayList<Card> cards = new ArrayList<Card>(maxCards);
 
     private Random rand;
 
@@ -47,11 +47,12 @@ public class Deck {
 
         Card newCard = new Card(letter, id);
         cards.add(newCard);
+
     }
 
 
 
-    //Getters
+    //Public getters
     public int getMaxCards() {
         return this.maxCards;
     }
