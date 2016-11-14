@@ -11,7 +11,7 @@ public class Run {
         Scanner scan = new Scanner(System.in);
 
         View view = new View();
-        view.start();
+        System.out.println(view.start());
         //Vänta på svar från användare
         int maxNumber = scan.nextInt();
         //Starta Deck med maxvärdet från användare
@@ -20,6 +20,7 @@ public class Run {
             Deck deck = new Deck(maxNumber);
             while (deck.canGuess()){
                 //Print the deck
+                System.out.println(view.printDeck(deck));
                 int number = scan.nextInt();
                 int number2 = scan.nextInt();
             }

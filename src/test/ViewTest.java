@@ -33,11 +33,17 @@ public class ViewTest {
     @Test
     public void testPrintDeck(){
         System.out.println("testPrintDeck()");
-        View view = new View();
+        /*View view = new View();
         Deck mockedDeck = mock(Deck.class);
         view.printDeck(mockedDeck);
         Assert.assertEquals("the whole deck", view.getStringBuffer());
         System.out.println(view.getStringBuffer());
+        */
+        View mockedView = mock(View.class);
+        Deck mockedDeck = mock(Deck.class);
+        mockedView.printDeck(mockedDeck);
+        when(mockedView.printDeck(mockedDeck)).thenReturn("the whole deck");
+        Assert.assertEquals("the whole deck", mockedView.printDeck(mockedDeck));
     }
 
 }
