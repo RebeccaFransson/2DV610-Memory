@@ -9,9 +9,9 @@ public class View {
     public View(){
         stringBuffer = new StringBuffer();
     }
-    public String start(){
+    public void start(){
         this.stringBuffer.append("Let's start! \nPick a even number between 2 and 40:");
-        return this.stringBuffer.toString();
+        System.out.println(this.stringBuffer.toString());
     }
 
     public String printDeck(Deck deck){

@@ -8,6 +8,7 @@ public class Controller {
 
     public void setUp() {
         this.view = new View();
+        this.view.start();
     }
 
 

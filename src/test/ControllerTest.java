@@ -17,6 +17,7 @@ public class ControllerTest {
 
     @Test
     public void testSetUp(){
+        System.out.println("testSetUp();");
         Controller ctrl = new Controller();
         ctrl.setUp();
         View view = ctrl.getView();
