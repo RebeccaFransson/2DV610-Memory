@@ -66,8 +66,8 @@ public class ViewTest {
     }
 
     @Test
-    public void testCheckTwoShowNrsDifferentCards(){
-        System.out.println("testCheckTwoShowNrsDifferentCards()");
+    public void testCheckTwoShowNrsDifferentLetters(){
+        System.out.println("testCheckTwoShowNrsDifferentLetters()");
         Card card = new Card('b', 0), card2 = new Card('a', 1);
         Deck mockedDeck = mock(Deck.class);
         View view = new View();

@@ -23,6 +23,7 @@ public class Run {
                 System.out.println(view.printDeck(deck));
                 int number = scan.nextInt();
                 int number2 = scan.nextInt();
+                System.out.println(view.checkTwoShowNrs(deck, number, number2));
             }
 
         }catch(IllegalArgumentException e){
