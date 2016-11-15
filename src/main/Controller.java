@@ -5,15 +5,23 @@ package main;
  */
 public class Controller {
     private View view;
+    private Deck deck;
 
-    public void setUp() {
+    public Controller(){
         this.view = new View();
         this.view.start();
+    }
+
+    public void setUpDeck(int maxNumber) {
+        this.deck = new Deck(maxNumber);
     }
 
 
     //public getters
     public View getView() {
         return this.view;
+    }
+    public Deck getDeck() {
+        return this.deck;
     }
 }

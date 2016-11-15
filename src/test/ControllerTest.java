@@ -1,6 +1,7 @@
 package test;
 
 import main.Controller;
+import main.Deck;
 import main.View;
 import org.junit.Assert;
 import org.junit.Before;
@@ -16,12 +17,20 @@ public class ControllerTest {
     public void setUp() { System.out.print("-- Controller class - "); }
 
     @Test
-    public void testSetUp(){
-        System.out.println("testSetUp();");
+    public void testSetUpView(){
+        System.out.println("testSetUpView();");
         Controller ctrl = new Controller();
-        ctrl.setUp();
+
         View view = ctrl.getView();
         Assert.assertNotNull(view);
+    }
+    @Test
+    public void testSetUpDeck(){
+        System.out.println("testSetUpDeck();");
+        Controller ctrl = new Controller();
+
+        Deck deck = ctrl.getDeck();
+        Assert.assertNotNull(deck);
     }
 
 }

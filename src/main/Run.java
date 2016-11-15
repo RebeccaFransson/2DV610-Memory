@@ -9,9 +9,21 @@ public class Run {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Controller ctrl = new Controller();
 
-        ctrl.setUp();
+        try{
+            Controller ctrl = new Controller();
+
+            int maxNumber = scan.nextInt();
+
+            ctrl.setUpDeck(maxNumber);
+        }catch(IllegalArgumentException e) {
+            System.err.println(e.getMessage());
+        }
+
+
+
+
+
     }
 
     /*public static void main(String[] args) {
