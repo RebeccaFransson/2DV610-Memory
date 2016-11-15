@@ -63,7 +63,22 @@ public class ViewTest {
         String expected = "a and a: Its the same, one point!";
 
         Assert.assertEquals(expected, actual);
+    }
 
+    @Test
+    public void testCheckTwoShowNrsDifferentCards(){
+        System.out.println("testCheckTwoShowNrsDifferentCards()");
+        Card card = new Card('b', 0), card2 = new Card('a', 1);
+        Deck mockedDeck = mock(Deck.class);
+        View view = new View();
+
+        when(mockedDeck.getCardFromShowNr(0)).thenReturn(card);
+        when(mockedDeck.getCardFromShowNr(1)).thenReturn(card2);
+
+        String actual = view.checkTwoShowNrs(mockedDeck, 0, 1);
+        String expected = "a and a: Its the same, one point!";
+
+        Assert.assertEquals(expected, actual);
     }
 
 }
