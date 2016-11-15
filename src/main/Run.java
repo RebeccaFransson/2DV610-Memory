@@ -9,6 +9,13 @@ public class Run {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        Controller ctrl = new Controller();
+
+        ctrl.setUp();
+    }
+
+    /*public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
 
         View view = new View();
         System.out.println(view.start());
@@ -33,5 +40,5 @@ public class Run {
         }catch(NullPointerException e){
             System.err.println(e.getMessage());
         }
-    }
+    }*/
 }

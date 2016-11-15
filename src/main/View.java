@@ -31,19 +31,22 @@ public class View {
     }
 
     public String checkTwoShowNrs(Deck deck, int nr, int nr2) {
+        this.stringBuffer.setLength(0);//Clearing the buffer
         Card card = deck.getCardFromShowNr(nr);
         Card card2 = deck.getCardFromShowNr(nr2);
         //card.equalLetters -> true -> removeCard
         if(card.equals(card2)){
-            return "You cant pick the same nr.";
+            this.stringBuffer.append("You cant pick the same nr.");
         }
         deck.addTurn();
         if (card.equalLetters(card2)){
             deck.removeCard(card);
             deck.removeCard(card2);
-            return card.getLetter()+" and "+card2.getLetter()+": Its the same, one point!";
+            this.stringBuffer.append(card.getLetter()+" and "+card2.getLetter()+": Its the same, one point!");
+        }else{
+            this.stringBuffer.append(card.getLetter()+" and "+card2.getLetter()+": Its not the same...");
         }
-        return card.getLetter()+" and "+card2.getLetter()+": Its not the same...";
+        return this.stringBuffer.toString();
     }
 
     //getter
