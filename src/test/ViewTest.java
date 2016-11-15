@@ -76,7 +76,7 @@ public class ViewTest {
         when(mockedDeck.getCardFromShowNr(1)).thenReturn(card2);
 
         String actual = view.checkTwoShowNrs(mockedDeck, 0, 1);
-        String expected = "a and a: Its the same, one point!";
+        String expected = "b and a: Its not the same...";
 
         Assert.assertEquals(expected, actual);
     }

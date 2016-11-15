@@ -36,8 +36,10 @@ public class View {
         Card card2 = deck.getCardFromShowNr(nr2);
         //card.equalLetters -> true -> removeCard
         //remove from deck
-        return card.getLetter()+" and "+card2.getLetter()+": Its the same, one point!";
-
+        if (card.equalLetters(card2)){
+            return card.getLetter()+" and "+card2.getLetter()+": Its the same, one point!";
+        }
+        return card.getLetter()+" and "+card2.getLetter()+": Its not the same...";
     }
 
     //getter

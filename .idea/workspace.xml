@@ -74,21 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="658">
+              <caret line="41" column="82" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ViewTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ViewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="68" column="49" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="49" />
+            <state relative-caret-position="420">
+              <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -181,8 +181,8 @@
         <option value="$PROJECT_DIR$/src/CodeCoverage.md" />
         <option value="$PROJECT_DIR$/src/main/Deck.java" />
         <option value="$PROJECT_DIR$/src/test/DeckTest.java" />
-        <option value="$PROJECT_DIR$/src/main/View.java" />
         <option value="$PROJECT_DIR$/src/test/ViewTest.java" />
+        <option value="$PROJECT_DIR$/src/main/View.java" />
       </list>
     </option>
   </component>
@@ -747,9 +747,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeckTest_testGetCardFromWrongShowNr - 2016.11.14 at 17h 58m 03s.xml">
-      <configuration name="DeckTest.testGetCardFromWrongShowNr" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DeckTest_testGetCardFromWrongShowNr - 2016.11.14 at 18h 02m 13s.xml">
       <configuration name="DeckTest.testGetCardFromWrongShowNr" configurationId="JUnit" />
     </history-entry>
@@ -769,6 +766,9 @@
       <configuration name="ViewTest.testCheckTwoShowNrs" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ViewTest_testCheckTwoShowNrsDifferentCards - 2016.11.15 at 14h 06m 57s.xml">
+      <configuration name="ViewTest.testCheckTwoShowNrsDifferentCards" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ViewTest_testCheckTwoShowNrsDifferentCards - 2016.11.15 at 14h 09m 25s.xml">
       <configuration name="ViewTest.testCheckTwoShowNrsDifferentCards" configurationId="JUnit" />
     </history-entry>
     <history-entry file="test_in_2DV610-Memory - 2016.11.14 at 17h 01m 57s.xml">
@@ -1242,18 +1242,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/View.java">
+    <entry file="file://$PROJECT_DIR$/src/test/ViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ViewTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="68" column="49" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="49" />
+        <state relative-caret-position="658">
+          <caret line="41" column="82" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
           <folding />
         </state>
       </provider>
