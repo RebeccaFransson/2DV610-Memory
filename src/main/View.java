@@ -31,10 +31,13 @@ public class View {
     }
 
     public String checkTwoShowNrs(Deck deck, int nr, int nr2) {
-        deck.addTurn();
         Card card = deck.getCardFromShowNr(nr);
         Card card2 = deck.getCardFromShowNr(nr2);
         //card.equalLetters -> true -> removeCard
+        if(card.equals(card2)){
+            return "You cant pick the same nr.";
+        }
+        deck.addTurn();
         if (card.equalLetters(card2)){
             deck.removeCard(card);
             deck.removeCard(card2);
