@@ -28,7 +28,7 @@ public class ControllerTest {
     public void testSetUpDeck(){
         System.out.println("testSetUpDeck();");
         Controller ctrl = new Controller();
-
+        ctrl.setUpDeck(2);
         Deck deck = ctrl.getDeck();
         Assert.assertNotNull(deck);
     }

@@ -16,8 +16,12 @@ public class Run {
             int maxNumber = scan.nextInt();
 
             ctrl.setUpDeck(maxNumber);
+
+
+
         }catch(IllegalArgumentException e) {
             System.err.println(e.getMessage());
+            main(args);
         }
 
 
