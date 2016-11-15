@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5267c0c-32e3-4042-bb84-1476eb12691e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/Run.class" afterPath="$PROJECT_DIR$/target/classes/main/Run.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/ControllerTest.class" afterPath="$PROJECT_DIR$/target/classes/test/ControllerTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Run.java" afterPath="$PROJECT_DIR$/src/main/Run.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ControllerTest.java" afterPath="$PROJECT_DIR$/src/test/ControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CodeCoverage.md" afterPath="$PROJECT_DIR$/src/CodeCoverage.md" />
     </list>
     <ignored path="2DV610-Memory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +20,7 @@
     <SUITE FILE_PATH="coverage/2DV610-Memory$DeckTest_testCanGuess.coverage" NAME="DeckTest.testCanGuess Coverage Results" MODIFIED="1479136931289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/2DV610-Memory$test_in_2DV610_Memory.coverage" NAME="test in 2DV610-Memory Coverage Results" MODIFIED="1479219804675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/2DV610-Memory$test_in_2DV610_Memory.coverage" NAME="test in 2DV610-Memory Coverage Results" MODIFIED="1479229498664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/2DV610-Memory$DeckTest_testRemoveCards.coverage" NAME="DeckTest.testRemoveCards Coverage Results" MODIFIED="1479135584637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -76,11 +73,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Run.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Run.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/Run.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="291">
-                  <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+                <state relative-caret-position="274">
+                  <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -166,11 +163,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CodeCoverage.md" pinned="false" current-in-tab="false">
+          <file leaf-file-name="CodeCoverage.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/CodeCoverage.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+                <state relative-caret-position="391">
+                  <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -232,14 +229,14 @@
         <option value="$PROJECT_DIR$/src/main/Card.java" />
         <option value="$PROJECT_DIR$/src/CodeCoverage.txt" />
         <option value="$PROJECT_DIR$/src/test/CardTest.java" />
-        <option value="$PROJECT_DIR$/src/CodeCoverage.md" />
         <option value="$PROJECT_DIR$/src/main/Deck.java" />
         <option value="$PROJECT_DIR$/src/test/ViewTest.java" />
         <option value="$PROJECT_DIR$/src/test/DeckTest.java" />
         <option value="$PROJECT_DIR$/src/main/View.java" />
         <option value="$PROJECT_DIR$/src/main/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/Run.java" />
         <option value="$PROJECT_DIR$/src/test/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Run.java" />
+        <option value="$PROJECT_DIR$/src/CodeCoverage.md" />
       </list>
     </option>
   </component>
@@ -377,7 +374,7 @@
       <recent name="main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ControllerTest.testSetUpDeck">
+  <component name="RunManager" selected="JUnit.test in 2DV610-Memory">
     <configuration default="false" name="DeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -825,14 +822,14 @@
     <history-entry file="DeckTest - 2016.11.15 at 15h 53m 23s.xml">
       <configuration name="DeckTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViewTest_testCheckSameShowNrs - 2016.11.15 at 15h 38m 33s.xml">
-      <configuration name="ViewTest.testCheckSameShowNrs" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ViewTest_testCheckSameShowNrs - 2016.11.15 at 15h 42m 23s.xml">
       <configuration name="ViewTest.testCheckSameShowNrs" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ViewTest_testStartView - 2016.11.15 at 16h 52m 22s.xml">
       <configuration name="ViewTest.testStartView" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_in_2DV610-Memory - 2016.11.15 at 18h 05m 00s.xml">
+      <configuration name="test in 2DV610-Memory" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -848,7 +845,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1224,14 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeCoverage.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
@@ -1300,18 +1289,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Run.java">
+    <entry file="file://$PROJECT_DIR$/src/test/ControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="187">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeCoverage.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding />
         </state>
       </provider>
