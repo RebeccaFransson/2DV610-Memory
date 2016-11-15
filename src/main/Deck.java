@@ -82,7 +82,7 @@ public class Deck {
             if (c.getShowNr() == showNr) returnCard = c;
 
         if (returnCard == null)
-            throw new NullPointerException("Sorry, this nr is not in the deck.");
+            throw new NullPointerException("Sorry, the nr '"+showNr+"' is not in the deck.");
 
         return returnCard;
     }

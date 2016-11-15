@@ -20,6 +20,8 @@ public class Run {
             Deck deck = new Deck(maxNumber);
             while (deck.canGuess()){
                 //Print the deck
+                System.out.print("\033[H\033[2J");
+                System.out.flush();
                 System.out.println(view.printDeck(deck));
                 int number = scan.nextInt();
                 int number2 = scan.nextInt();
@@ -27,6 +29,8 @@ public class Run {
             }
             System.out.println("Yey you did it! And it only took "+deck.getTurns()+" turns");
         }catch(IllegalArgumentException e){
+            System.err.println(e.getMessage());
+        }catch(NullPointerException e){
             System.err.println(e.getMessage());
         }
     }

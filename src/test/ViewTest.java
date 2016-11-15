@@ -81,4 +81,19 @@ public class ViewTest {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void testCheckSameShowNrs(){
+        System.out.println("testCheckSameShowNrs()");
+        Card card = new Card('a', 0);
+        Deck mockedDeck = mock(Deck.class);
+        View view = new View();
+
+        when(mockedDeck.getCardFromShowNr(0)).thenReturn(card);
+
+        String actual = view.checkTwoShowNrs(mockedDeck, 0, 0);
+        String expected = "You cant pick the same nr.";
+
+        Assert.assertEquals(expected, actual);
+    }
+
 }
