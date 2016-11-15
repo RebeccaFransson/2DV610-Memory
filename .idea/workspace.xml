@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5267c0c-32e3-4042-bb84-1476eb12691e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/ControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/DeckTest.class" afterPath="$PROJECT_DIR$/target/classes/test/DeckTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Run.java" afterPath="$PROJECT_DIR$/src/main/Run.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/View.java" afterPath="$PROJECT_DIR$/src/main/View.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Controller.java" afterPath="$PROJECT_DIR$/src/main/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ControllerTest.java" afterPath="$PROJECT_DIR$/src/test/ControllerTest.java" />
     </list>
     <ignored path="2DV610-Memory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,11 +86,13 @@
           <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
                   <folding>
-                    <element signature="e#190#191#0" expanded="true" />
-                    <element signature="e#222#223#0" expanded="true" />
+                    <element signature="e#132#133#0" expanded="true" />
+                    <element signature="e#170#171#0" expanded="true" />
+                    <element signature="e#221#222#0" expanded="true" />
+                    <element signature="e#253#254#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -180,8 +178,8 @@
           <file leaf-file-name="ControllerTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/ControllerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+                <state relative-caret-position="221">
+                  <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -235,8 +233,8 @@
         <option value="$PROJECT_DIR$/src/test/DeckTest.java" />
         <option value="$PROJECT_DIR$/src/main/Run.java" />
         <option value="$PROJECT_DIR$/src/main/View.java" />
-        <option value="$PROJECT_DIR$/src/test/ControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/Controller.java" />
+        <option value="$PROJECT_DIR$/src/test/ControllerTest.java" />
       </list>
     </option>
   </component>
@@ -804,6 +802,9 @@
     <history-entry file="ControllerTest_testSetUp - 2016.11.15 at 16h 37m 41s.xml">
       <configuration name="ControllerTest.testSetUp" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ControllerTest_testSetUp - 2016.11.15 at 16h 48m 46s.xml">
+      <configuration name="ControllerTest.testSetUp" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="DeckTest - 2016.11.15 at 15h 51m 40s.xml">
       <configuration name="DeckTest" configurationId="JUnit" />
     </history-entry>
@@ -815,9 +816,6 @@
     </history-entry>
     <history-entry file="ViewTest_testCheckSameShowNrs - 2016.11.15 at 15h 42m 23s.xml">
       <configuration name="ViewTest.testCheckSameShowNrs" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ViewTest_testCheckTwoShowNrsDifferentCards - 2016.11.15 at 14h 06m 57s.xml">
-      <configuration name="ViewTest.testCheckTwoShowNrsDifferentCards" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ViewTest_testCheckTwoShowNrsDifferentCards - 2016.11.15 at 14h 09m 25s.xml">
       <configuration name="ViewTest.testCheckTwoShowNrsDifferentCards" configurationId="JUnit" />
@@ -834,7 +832,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3038" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -843,7 +841,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1266,6 +1264,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Run.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1282,30 +1288,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/View.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="221">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
