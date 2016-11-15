@@ -32,8 +32,10 @@ public class View {
 
     public String checkTwoShowNrs(Deck deck, int nr, int nr2) {
         //getCardFromShowNr
+        Card card = deck.getCardFromShowNr(nr);
+        Card card2 = deck.getCardFromShowNr(nr2);
         //card.equalLetters -> true -> removeCard
-        return nr+" and "+nr2+": Its the same, one point!";
+        return card.getLetter()+" and "+card2.getLetter()+": Its the same, one point!";
     }
 
     //getter

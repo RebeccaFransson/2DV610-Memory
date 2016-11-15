@@ -56,11 +56,8 @@ public class ViewTest {
         Deck mockedDeck = mock(Deck.class);
         View view = new View();
 
-        ArrayList cards = new ArrayList();
-        cards.add(card);
-        cards.add(card2);
-
-        when(mockedDeck.getDeck()).thenReturn(cards);
+        when(mockedDeck.getCardFromShowNr(0)).thenReturn(card);
+        when(mockedDeck.getCardFromShowNr(1)).thenReturn(card2);
 
         String actual = view.checkTwoShowNrs(mockedDeck, 0, 1);
         String expected = "a and a: Its the same, one point!";
