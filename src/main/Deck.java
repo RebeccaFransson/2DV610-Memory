@@ -8,6 +8,7 @@ import java.util.Random;
  */
 public class Deck {
     private int maxCards;
+    private int turns;
     private ArrayList<Character> alphabet = new ArrayList<Character>();
     private ArrayList<Character> alphabetDuplicated = new ArrayList<Character>();//For the tests
     private ArrayList<Character> usedLetters = new ArrayList<Character>();
@@ -22,6 +23,7 @@ public class Deck {
             throw new IllegalArgumentException("Needs to be between 2 and 40");
         }
         this.maxCards = maxCards;
+        this.turns = 0;
         setAlphabet();
         createCards();
     }
@@ -29,25 +31,25 @@ public class Deck {
     private void createCards() {
         for (int i = 0; i < this.maxCards; i++){
             if(i < maxCards/2){
-                createCardsPartTwo(this.alphabet, true);
+                createCardsPartTwo(this.alphabet, i);
             }else{
-                createCardsPartTwo(this.usedLetters, false);
+                createCardsPartTwo(this.usedLetters, i);
             }
         }
     }
 
     //Takes first a letter from the alphabet
     //Adds the letter to the usedletters array if its the first part of the maxCards
-    private void createCardsPartTwo(ArrayList<Character> list, boolean isFirstPart) {
+    private void createCardsPartTwo(ArrayList<Character> list, int i) {
         int id = getRandomIndex(list);
 
         char letter = list.get(id);
         list.remove(id);
-        if(isFirstPart){
+        if(i < maxCards/2){
             this.usedLetters.add(letter);
         }
 
-        addCard(new Card(letter, id));
+        addCard(new Card(letter, i+1));
     }
 
     public boolean canGuess() {
@@ -97,6 +99,14 @@ public class Deck {
     public Card removeCard(Card card){
         this.cards.remove(card);
         return card;
+    }
+    public void addTurn(){
+        this.turns++;
+    }
+
+    //Public getters
+    public int getTurns(){
+        return this.turns;
     }
 
 

@@ -25,13 +25,9 @@ public class Run {
                 int number2 = scan.nextInt();
                 System.out.println(view.checkTwoShowNrs(deck, number, number2));
             }
-
+            System.out.println("Yey you did it! And it only took "+deck.getTurns()+" turns");
         }catch(IllegalArgumentException e){
             System.err.println(e.getMessage());
         }
-
-        //Vänta på användarens två svar
-        //jämnför dessa
-        //Skrev ut till användaren omd e var samma
     }
 }

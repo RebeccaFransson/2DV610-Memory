@@ -31,7 +31,7 @@ public class View {
     }
 
     public String checkTwoShowNrs(Deck deck, int nr, int nr2) {
-        //getCardFromShowNr
+        deck.addTurn();
         Card card = deck.getCardFromShowNr(nr);
         Card card2 = deck.getCardFromShowNr(nr2);
         //card.equalLetters -> true -> removeCard
