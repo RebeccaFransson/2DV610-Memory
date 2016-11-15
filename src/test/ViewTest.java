@@ -1,10 +1,13 @@
 package test;
 
+import main.Card;
 import main.Deck;
 import main.View;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.util.ArrayList;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
@@ -44,6 +47,26 @@ public class ViewTest {
         mockedView.printDeck(mockedDeck);
         when(mockedView.printDeck(mockedDeck)).thenReturn("the whole deck");
         Assert.assertEquals("the whole deck", mockedView.printDeck(mockedDeck));
+    }
+
+    @Test
+    public void testCheckTwoShowNrs(){
+        System.out.println("testCheckTwoShowNrs()");
+        Card card = new Card('a', 0), card2 = new Card('a', 1);
+        Deck mockedDeck = mock(Deck.class);
+        View view = new View();
+
+        ArrayList cards = new ArrayList();
+        cards.add(card);
+        cards.add(card2);
+
+        when(mockedDeck.getDeck()).thenReturn(cards);
+
+        String actual = view.checkTwoShowNrs(mockedDeck, 0, 1);
+        String expected = "a and a: Its the same, one point!";
+
+        Assert.assertEquals(expected, actual);
+
     }
 
 }

@@ -72,7 +72,9 @@ public class Deck {
     public ArrayList<Card> getDeck() {
         return this.cards;
     }
+
     public Card getCardFromShowNr(int showNr) {
+        //Can be made faster with hashset
         Card returnCard = null;
         for (Card c : getDeck())
             if (c.getShowNr() == showNr) returnCard = c;
@@ -82,6 +84,9 @@ public class Deck {
 
         return returnCard;
     }
+
+
+
 
 
     //Public setters
@@ -112,8 +117,6 @@ public class Deck {
         }
 
     }
-
-
 
 
 

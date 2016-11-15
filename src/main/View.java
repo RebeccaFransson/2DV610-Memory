@@ -30,6 +30,12 @@ public class View {
         return this.stringBuffer.toString();
     }
 
+    public String checkTwoShowNrs(Deck deck, int nr, int nr2) {
+        //getCardFromShowNr
+        //card.equalLetters -> true -> removeCard
+        return nr+" and "+nr2+": Its the same, one point!";
+    }
+
     //getter
     public String getStringBuffer(){
         return this.stringBuffer.toString();
