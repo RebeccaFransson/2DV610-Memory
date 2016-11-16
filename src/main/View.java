@@ -5,6 +5,7 @@ package main;
  */
 public class View {
     private StringBuffer stringBuffer;
+    public final static String START = "Let's start! \nPick a even number between 2 and 40:";
 
     public View(){
         stringBuffer = new StringBuffer();

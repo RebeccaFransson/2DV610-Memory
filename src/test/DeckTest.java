@@ -60,7 +60,7 @@ public class DeckTest {
         Deck deck = new Deck(9);
     }
 
-    @Test
+    @Test//DOOVER
     public void testAddCardsWithMock(){
         System.out.println("testAddCardsWithMock()");
         //Create mock of deck
@@ -90,7 +90,7 @@ public class DeckTest {
         Assert.assertNotEquals(before, after);
     }
 
-    @Test
+    @Test//DOOVER
     public void testCanGuessWithMock(){
         System.out.println("testCanGuessWithMock()");
         Deck mockedDeck = mock(Deck.class);
@@ -112,7 +112,7 @@ public class DeckTest {
         Assert.assertFalse(deck.canGuess());
     }
 
-    @Test
+    @Test//DOOVER
     public void testGetCardFromShowNr(){
         System.out.println("testGetCardFromShowNr()");
         Deck mockedDeck = mock(Deck.class);

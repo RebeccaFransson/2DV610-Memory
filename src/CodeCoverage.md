@@ -17,3 +17,8 @@
 * DeckTest - 100% methods, 97% lines
 * ViewTest - 100% methods, 100% lines
 * Whole package _test_ - 100% methods, 98% lines
+
+## 15/11 18:05
+* DeckTest - 100% methods, 95% lines
+* ViewTest - 100% methods, 97% lines
+* ControllerTest - 100% methods, 100% lines

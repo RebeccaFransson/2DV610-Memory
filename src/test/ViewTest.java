@@ -27,13 +27,17 @@ public class ViewTest {
     public void testStartView(){
         System.out.println("testStartView()");
         View view = new View();
-        String expected = "Let's start! \nPick a even number between 2 and 40:";
+        String expected = view.START;
+
         view.start();
+
         String actual = view.getStringBuffer();
         Assert.assertEquals(expected, actual);
     }
 
-    @Test
+    @Test//DOOVER
+    //mock the deck so that it is 1234
+    //Call normal view
     public void testPrintDeck(){
         System.out.println("testPrintDeck()");
         /*View view = new View();
