@@ -31,7 +31,6 @@ public class ControllerTest {
         ctrl.run();
 
         verify(view).printStart();
-
     }
 
 
