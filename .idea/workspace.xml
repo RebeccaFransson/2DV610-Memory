@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5267c0c-32e3-4042-bb84-1476eb12691e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/newTest/ViewTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/newMain/View.class" afterPath="$PROJECT_DIR$/target/classes/newMain/View.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/newMain/View.java" afterPath="$PROJECT_DIR$/src/newMain/View.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/newTest/ControllerTest.java" afterPath="$PROJECT_DIR$/src/newTest/ControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/newTest/ViewTest.java" afterPath="$PROJECT_DIR$/src/newTest/ViewTest.java" />
     </list>
     <ignored path="2DV610-Memory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,16 +67,6 @@
                 <element signature="e#398#399#0" expanded="true" />
                 <element signature="e#452#453#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Run.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -156,24 +143,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/newMain/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="238">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ViewTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/newTest/ViewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -221,8 +210,8 @@
         <option value="$PROJECT_DIR$/src/test/ControllerTest.java" />
         <option value="$PROJECT_DIR$/src/newMain/Controller.java" />
         <option value="$PROJECT_DIR$/src/newTest/ControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/newMain/View.java" />
         <option value="$PROJECT_DIR$/src/newTest/ViewTest.java" />
+        <option value="$PROJECT_DIR$/src/newMain/View.java" />
       </list>
     </option>
   </component>
@@ -786,26 +775,26 @@
     <history-entry file="ControllerTest_testStart - 2016.11.16 at 13h 15m 25s.xml">
       <configuration name="ControllerTest.testStart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeckTest - 2016.11.15 at 15h 51m 40s.xml">
-      <configuration name="DeckTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeckTest - 2016.11.15 at 15h 53m 23s.xml">
-      <configuration name="DeckTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ViewTest_testCheckSameShowNrs - 2016.11.15 at 15h 42m 23s.xml">
-      <configuration name="ViewTest.testCheckSameShowNrs" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ViewTest_testPrintStart - 2016.11.16 at 13h 23m 40s.xml">
       <configuration name="ViewTest.testPrintStart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViewTest_testStartView - 2016.11.15 at 16h 52m 22s.xml">
-      <configuration name="ViewTest.testStartView" configurationId="JUnit" />
+    <history-entry file="ViewTest_testPrintStart - 2016.11.16 at 13h 25m 01s.xml">
+      <configuration name="ViewTest.testPrintStart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViewTest_testStartView - 2016.11.16 at 12h 23m 28s.xml">
-      <configuration name="ViewTest.testStartView" configurationId="JUnit" />
+    <history-entry file="ViewTest_testPrintStart - 2016.11.16 at 13h 25m 32s.xml">
+      <configuration name="ViewTest.testPrintStart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_in_2DV610-Memory - 2016.11.15 at 18h 05m 00s.xml">
-      <configuration name="test in 2DV610-Memory" configurationId="JUnit" />
+    <history-entry file="ViewTest_testPrintStart - 2016.11.16 at 13h 25m 59s.xml">
+      <configuration name="ViewTest.testPrintStart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ViewTest_testPrintStart - 2016.11.16 at 13h 29m 22s.xml">
+      <configuration name="ViewTest.testPrintStart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ViewTest_testPrintStart - 2016.11.16 at 13h 32m 45s.xml">
+      <configuration name="ViewTest.testPrintStart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ViewTest_testPrintStart - 2016.11.16 at 13h 33m 06s.xml">
+      <configuration name="ViewTest.testPrintStart" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -852,7 +841,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="38" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/newTest/ViewTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1091,13 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/rules/ExpectedException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1237,17 +1227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newMain/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/newTest/ControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1256,12 +1235,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/newTest/ViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newMain/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
           </folding>
         </state>
       </provider>
