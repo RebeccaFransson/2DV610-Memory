@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5267c0c-32e3-4042-bb84-1476eb12691e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/newMain/Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/newMain/View.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/newTest/ControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/View.class" afterPath="$PROJECT_DIR$/target/classes/main/View.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/ControllerTest.class" afterPath="$PROJECT_DIR$/target/classes/test/ControllerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/ViewTest.class" afterPath="$PROJECT_DIR$/target/classes/test/ViewTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CodeCoverage.md" afterPath="$PROJECT_DIR$/src/CodeCoverage.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/View.java" afterPath="$PROJECT_DIR$/src/main/View.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ControllerTest.java" afterPath="$PROJECT_DIR$/src/test/ControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/DeckTest.java" afterPath="$PROJECT_DIR$/src/test/DeckTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ViewTest.java" afterPath="$PROJECT_DIR$/src/test/ViewTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CodeCoverage.md" afterPath="$PROJECT_DIR$/target/classes/CodeCoverage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/newMain/Controller.java" afterPath="$PROJECT_DIR$/src/newMain/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/newTest/ControllerTest.java" afterPath="$PROJECT_DIR$/src/newTest/ControllerTest.java" />
     </list>
     <ignored path="2DV610-Memory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -158,9 +147,14 @@
           <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/newMain/Controller.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-                  <folding />
+                <state relative-caret-position="323">
+                  <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#145#146#0" expanded="true" />
+                    <element signature="e#177#178#0" expanded="true" />
+                    <element signature="e#326#327#0" expanded="true" />
+                    <element signature="e#364#365#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -168,8 +162,8 @@
           <file leaf-file-name="ControllerTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/newTest/ControllerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+                <state relative-caret-position="357">
+                  <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -252,8 +246,8 @@
         <option value="$PROJECT_DIR$/src/test/ViewTest.java" />
         <option value="$PROJECT_DIR$/src/test/ControllerTest.java" />
         <option value="$PROJECT_DIR$/src/newMain/View.java" />
-        <option value="$PROJECT_DIR$/src/newMain/Controller.java" />
         <option value="$PROJECT_DIR$/src/newTest/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/newMain/Controller.java" />
       </list>
     </option>
   </component>
@@ -802,9 +796,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ControllerTest_testSetUpDeck - 2016.11.15 at 17h 58m 08s.xml">
-      <configuration name="ControllerTest.testSetUpDeck" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ControllerTest_testSetUpDeck - 2016.11.15 at 18h 02m 30s.xml">
       <configuration name="ControllerTest.testSetUpDeck" configurationId="JUnit" />
     </history-entry>
@@ -812,6 +803,9 @@
       <configuration name="ControllerTest.testSetUpViewPrintStart" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ControllerTest_testStart - 2016.11.16 at 12h 51m 49s.xml">
+      <configuration name="ControllerTest.testStart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest_testStart - 2016.11.16 at 13h 15m 25s.xml">
       <configuration name="ControllerTest.testStart" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DeckTest - 2016.11.15 at 15h 51m 40s.xml">
@@ -845,7 +839,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1269,16 +1263,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newMain/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newTest/ControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="357">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding />
         </state>
       </provider>

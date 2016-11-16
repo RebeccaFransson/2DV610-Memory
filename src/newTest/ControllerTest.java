@@ -26,8 +26,8 @@ public class ControllerTest {
     public void testStart(){
         System.out.println("testStart()");
         View view = mock(View.class);
-        ctrl = new Controller();
-        
+        ctrl = new Controller(view);
+
         ctrl.run();
 
         verify(view).printStart();
